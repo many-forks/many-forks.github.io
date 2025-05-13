@@ -1,0 +1,52 @@
+---
+title: "refdoc"
+format: docx
+---
+
+# section
+
+## subsection
+
+### subsubsection
+
+```{r}
+#| label: tbl-timeline
+#| tbl-cap: General timeline to completion.
+#| echo: false
+list(
+  one = list(
+    Period = "Fall 2025", 
+    Drafting = "Sections 1 (Overview) and 2 (Reproducible Quan)", 
+    Revising = ""
+  ), 
+  two = list(
+    Period = "Spring 2026", 
+    Drafting = "Sections 1 (Overview) and 2 (Reproducible Quan)", 
+    Revising = "Sections 1 (Overview) and 2 (Reproducible Quan)"
+  ), 
+  three = list(
+    Period = "Summer 2026", 
+    Drafting = "Draft of Section 3 (Integrity)", 
+    Revising = "Sections 1 and 2"
+  ), 
+  four = list(
+    Period = "Spring 2027", 
+    Drafting = "Draft of Section 4 (Ethics)", 
+    Revising = "Section 3"
+  ), 
+  five = list(
+    Period = "Summer 2027", 
+    Drafting = "Conclusion", 
+    Revising = "Section 4"
+  ), 
+  six = list(
+    Period = "Fall 2027", 
+    Drafting = "Finalize and submit all components", 
+    Revising = ""
+  )
+) |> 
+  dplyr::bind_rows() |> 
+  knitr::kable(align = c("l", "l", "l"))
+```
+
+text

@@ -1,83 +1,230 @@
 ---
-title: "RMAL Proposal"
 format:
+  docx: default
   gfm: default
   pdf: default
   html: default
+number-sections: true
+reference-doc: "./refdoc.docx"
 ---
 
-# About the book
+# About the Book
 
-## The manuscript in question
+## General Information
 
-- Author(s)/Editor(s) name(s)
-- Title (tentative)
-- Estimated length (in number of words and pages)
-- Number of tables.
-- Number of figures and/or plates. If any of the figures crucially need color, please
-indicate this. (Please note that we may charge for the use of color)
-- Number of contributions (for collective volumes only)
-- Other special features; such as, for instance, accompanying audio, video, or datasets.
-Please indicate the number, type, and size of such files
-- Time schedule
+**Authors**: Charlie Nagle & Joseph V. Casillas  
+**Estimated length**: 100,000 words  
+**Number of tables and figures**: TBD  
+**Special features**: R code (.qmd and associated file types), video tutorials (mp4)  
+**Timeline**:
 
-## Outline of the book
+```{r}
+#| label: tbl-timeline
+#| tbl-cap: General timeline to completion.
+#| echo: false
+list(
+  one = list(
+    Period = "Fall 2025", 
+    Drafting = "Sections 1 (Overview) and 2 (Reproducible Quan)", 
+    Revising = ""
+  ), 
+  two = list(
+    Period = "Spring 2026", 
+    Drafting = "Sections 1 (Overview) and 2 (Reproducible Quan)", 
+    Revising = "Sections 1 (Overview) and 2 (Reproducible Quan)"
+  ), 
+  three = list(
+    Period = "Summer 2026", 
+    Drafting = "Draft of Section 3 (Integrity)", 
+    Revising = "Sections 1 and 2"
+  ), 
+  four = list(
+    Period = "Spring 2027", 
+    Drafting = "Draft of Section 4 (Ethics)", 
+    Revising = "Section 3"
+  ), 
+  five = list(
+    Period = "Summer 2027", 
+    Drafting = "Conclusion", 
+    Revising = "Section 4"
+  ), 
+  six = list(
+    Period = "Fall 2027", 
+    Drafting = "Finalize and submit all components", 
+    Revising = ""
+  )
+) |> 
+  dplyr::bind_rows() |> 
+  knitr::kable(align = c("l", "l", "l"))
+```
 
-It is important for the evaluation process and later for promotional purposes to know the exact nature of your book. For this reason we would like you to focus on the following aspects related to the outline of your book:
+## Outline
 
-- What type of book it is: research monograph or edited collection
-- What do you see as the main selling points? Emphasize the unique aspects regarding
-the way in which this book advances methodological knowledge/techniques/... in Applied Linguistics, in general, and in the research domain covered in the book, in particular.
-- Please send a copy of the table of contents and a concise description of the volume.
-- Please indicate the intended readership of your book.
-- List any publications your manuscript is related to or will directly compete with. Please
-include author(s)/editor(s), year of publication, title, publisher, and price if known.
+### Rationale
 
-## Possible reviewers of your manuscript
+In this co-authored research monograph, we will equip researchers with state-of-the-art knowledge and methods in quantitative data analysis and reporting, emphasizing open science principles related to transparent and reproducible data practices.
+Quantitative methods are continually evolving, enabling researchers to address and shed new light on perennial questions using novel techniques and to use such techniques to ask new questions altogether. 
+Alongside the evolving quantitative landscape, research designs are growing more complex in a number of ways: advances in data storage and processing are allowing researchers to collect larger, hierarchically clustered data sets that demand more analytical machinery and researchers are asking more sophisticated questions that sit at the intersection of multiple research domains. 
+Both these facts mean that there are usually many different analytical strategies researchers can pursue, each of which could lead to different conclusions regarding what the data suggest. 
+Furthermore, there is now widespread conversation about how to make the decision-making process itself as transparent as possible, so that future researchers may replicate and improve upon it. In some instances, multiple research teams or even a single researcher may apply several analytical approaches to the same data set, on the view that if multiple analyses lead to the same result, then that result can be considered more credible. 
+Contemporary conversations related to questionable research practices, which can arise at any stage of the research, are also ongoing. 
 
-Please list up to three professionals in your field (with their full contact details, please) who are qualified to objectively read and evaluate your manuscript. We may or may not approach the suggested reviewers as we may be using our own network of reviewers, or those suggested by the RMAL editorial team.
+Set against this backdrop, we aim to educate researchers on how to undertake methodologically sound and transparent quantitative research from start to finish, thinking not just about the research itself but also about the research tools and protocols that provide the scaffolding needed for open science. 
+A fundamental motivation for this manuscript stems from the fact that engaging in open science practices is becoming the new norm in linguistic research. 
+More and more journals are requiring that authors make available their research materials, including data, code, and stimuli, to publish original research. 
+Crucially, researchers are expected to adhere to open, transparent practices, but typically receive little, if any, training in this burgeoning area. 
+The goal of this manuscript is to serve as a guide for researchers at all levels through the process of preparing, sharing, and maintaining reproducible research projects.
 
-# About the authors(s)/editor(s)
+We envision a three-part volume with a short concluding chapter. 
+In the first section, we address all aspects of quantitative research, focusing on the quantitative design principles that have been the bedrock of applied linguistics research, while also looking to the future and commenting on the designs that are likely to reshape the state of the art. 
+Into that section, we infuse discussion of some of the debates that are currently redefining the field, including sampling practices, online data collection, and transparent and reproducible reporting via literate programming. 
+In the second section, we delve into research integrity, tapping into discussions related to questionable research practices and how we can take steps to mitigate them during design, implementation and analysis, and reporting. 
+In the third section, we focus on ethics, which has been framed predominantly in terms of institutional review and oversights, including consent. 
+We take a broader approach, addressing ethics in publication and the uptake of scientific knowledge. 
+Throughout the book, we introduce researchers to GitHub and R as organizational frameworks for making research more systematic, reproducible, and open. 
+Concretely, we advocate for literate programming using cutting edge tools, such as Quarto markdown documents (.qmd files). 
+Quarto is an open-source, scientific and technical publishing system that provides numerous advantages for conducting open, transparent, reproducible research. 
+To highlight just one, it allows the researcher to integrate prose together with code from any number of programming languages into a single, shareable document. 
+We provide helpful suggestions and tutorials designed to get researchers comfortable using these tools as quickly as possible. 
+In doing so, we offer models that have worked well for us and others, while creating opportunities for readers to reflect upon their own process and tailor their approach to their specific needs. 
+We touch upon the potential of these tools to make data more accessible to the public, such as through interactive data visualization, Shiny apps, and so on. 
+
+There are many books that have addressed quantitative research methods and quantitative data analysis, including tutorial books that simultaneously train researchers in software such as R (e.g., Winter, 2019). 
+What sets our book apart is its emphasis on helping researchers design sustainable research models and workflows that will not only make their work more rigorous but also more transparent and open. 
+To the best of our knowledge, there has yet to be a monograph that has combined instruction in quantitative methods with practical guidance on how to build an open science practice from the start. 
+It is an ideal time for this volume because open science is still in its adolescence in applied linguistics, which means that guidance for exactly how to make applied linguistics research maximally accessible, transparent, and reproducible is lacking. 
+Certainly, researchers can look to neighboring disciplines, but we need field-specific standards, especially in the area of quantitative data analysis and reporting. 
+
+### Proposed table of contents
+
+1. Overview of Quantitative Methods
+    1. Key elements of a quantitative study
+    2 Main designs in quantitative research
+    3. Main data analysis procedures in quantitative research
+    4. Methodological rigor in quantitative research
+        1. Participant selection
+        2. Data collection procedures
+        3. Data analysis procedures
+        4. Reporting practices
+    5. Critical quantitative research
+2. Reproducible Quantitative Research
+    1. Introduction to open science practices in quantitative research
+    2. Tools and workflows
+    3. Reproducible data analysis
+3. Integrity in Quantitative Research 
+    1. Introduction to research integrity
+    2. What are questionable research practices in quantitative research
+    3. What constitutes research misconduct in quantitative research
+4. Ethics in Quantitative Research
+    1. Study design and implementation
+    2. Authorship
+    3. Publication
+    4. Societal impact
+5. Conclusion
+
+### Intended readership
+
+We envision this book being useful to quantitative researchers at all stages of their careers working in diverse areas of applied linguistics. 
+New and junior researchers will profit from a detailed exposition of quantitative methods and the research tools that can help them organize and share their quantitative projects. 
+By reflecting on a variety of high-impact research topics in the quantitative sciences, more experienced researchers will have the opportunity to reappraise their research values and beliefs. 
+They will also benefit from a systematic introduction to tools that can support open quantitative research, which we believe will help mitigate often cited technical ‘barriers to entry’. 
+Practically speaking, we believe that this book can be used independently or in conjunction with other research materials in applied linguistics methods courses. Likewise, we aim to write it in such a way that sections and chapters are interconnected but can also be read as standalone units.
+
+### Potential competitors
+
+**Books dealing with data analysis**
+
+Larson-Hall, J. (2015). A guide to doing statistics in second language research using SPSS and R (2nd edition). Routledge.
+
+Plonsky, L. (2015). Advancing quantitative methods in second language research. Routledge.
+
+Winter, B. (2019). Statistics for linguists: An introduction using R. Routledge.
+
+Note: Larson-Hall (2015), Plonsky (2015), and Winter (2019) deal with quantitative data analysis and statistics. Winter (2019) has a minor emphasis on open science, but the primary focus of the book is on regression analysis in R. Our book will be focused on open science practices in quantitative research, with commentary on statistical methods. Part of the goal of our book is to help researchers rethink how they go about their research rather than what they do for a particular study. 
+
+Hui, B., & Pandža, N. (forthcoming). The open handbook of quantitative data analysis in applied linguistics (Part 1): From data dances to regression revelry. Applied Linguistics Press.
+
+Hui, B., & Pandža, N. (forthcoming). The open handbook of quantitative data analysis in applied linguistics (Part 2): From R script to manuscript. Applied Linguistics Press.
+
+Note: Both of these volumes are likely to touch upon the same topics that we aim to address in this book. One way our book will standout and complement (as opposed to compete with) these volumes is our emphasis on making research programs transparent and reproducible by cultivating a set of practices that can inform an open science research architecture.
+
+
+**Other quantitative books**
+
+Wood, M., Larsson, T., Plonsky, L., Sterling, S., Kytö, M., & Yaw, K. (2024). Addressing questionable research practices in applied linguistics: A practical guide. Applied Linguistics Press.
+
+Note: This book emphasizes one aspect of quantitative research: QRPs. In our book, we will discuss QRPs, but we will take a more global approach to discussing how researchers can set up workflows and build practices that create the necessary architecture for high-impact, transparent quantitative research.
+
+**Books on specific techniques and subdomains**
+
+There are many volumes that address specific methods or methods in particular subdomains of linguistics (notably those published by Routledge under the Second Language Acquisition Research Series; see the selection below). We do not view these volumes as direct competitors because they are meant to be used for specific purposes.
+
+Colantoni, L., Steele, J., & Escudero, P. (2015). Second language speech. Cambridge University Press.
+
+Darcy, I. (2024). Second language speech processing: A guide to conducting experimental research. Routledge
+
+Godfroid, A. (2019). Eye tracking in second language acquisition and bilingualism: A research synthesis and methodological guide. Routledge
+
+Nagle, C. (2024). A guide to quantitative research methods in second language pronunciation. Routledge.
+
+Porte, G., & McManus, K. (2019). Doing replication research in applied linguistics. Routledge.
+
+## Possible reviewers
+
+- Luke Plonksy (luke.plonsky@nau.edu), Northern Arizona University
+- Krista Byers-Heinlein (k.byers@concordia.ca), Concordia University
+- Kevin McManus (kmcmanus@psu.edu), Penn State University 
+- Stefano Coretta (s.coretta@ed.ac.uk), University of Ediburgh
+- Timo B. Roettger (timo.roettger@iln.uio.no), University of Oslo
+- Ryan M. Bessett (rbessett@ucsd.edu), University of California, San Diego
+- Sho Tsuji (shotsuji@ircn.jp), University of Tokyo
+
+# About the authors
 
 ## Motivation, suitability, and qualifications
 
-- Please explain your motivation and particular qualifications to write/edit the work.
-- Please include your degrees, former academic affiliations, etc., or attach your cv.
-- Please list titles, publishers, and publication dates of any previous books, journal
-articles, or presentations you have (co-)authored or (co-)edited that do not appear in
-your cv.
-- Please list your fields of academic interest
+We are motivated to write this book because we believe researchers lack comprehensive training in open science practices for quantitative research. 
+Such training is necessary because research methods are becoming more complex: individuals are increasingly participating in larger, multi-site studies, and the analytical techniques they apply to such data are (necessarily) more sophisticated. 
+Thus, there is a growing garden of forking paths, and the field has yet to put forth a comprehensive guide on how to ensure high-impact, ethical, and transparent quantitative research in applied linguistics. 
+As two individuals who are committed to the principles of open science, we feel that we would have benefitted from training in the area, and through our own work, we have cultivated a set of principles and practices that can serve as a flexible blueprint for other researchers.
 
-## Professional data
+We are qualified because we are experts in quantitative analysis who routinely use modern statistical techniques (mixed-effects modeling, Bayesian analysis, etc.) in our work, and whenever possible we publish our data and code, putting considerable time and effort into annotating analyses for the purpose of interpretability and reproducibility. 
+We have both given talks and workshops on topics such as data analysis, data visualization, and open science, and we have contributed to fieldwide initiatives in the area (below we list for each of us a couple of relevant and noteworthy research activities/accomplishments; CVs enclosed).
 
-Full name  
-Academic status  
-Academic affiliation  
-ORCID (if available)
+Nagle
 
-## Contact details
+- IRIS project director (https://www.iris-database.org/) 
+- Huensch & Nagle (2020), a registered conceptual replication of Munro & Derwing (1995) published in Language Learning, won the IRIS replication award
 
-### University address 
+Casillas
 
-Department 
-University  
-City & Postal/Zip code  
-Country  
-Phone/Fax  
-E-mail
+- Initiating author of the Many Speech Analyses Project (https://many-speech-analyses.github.io/), co-author of the resulting manuscript (Coretta et al., 2023), and author of MSA shiny web application (https://www.jvcasillas.com/shiny_msa/)
+- Also authored numerous open-source resources related to transparent research practices: 
+  - Casillas, J. V. (2020). contributoR: Visualizing and documenting scholarly contributions. R package: www.jvcasillas.com/contributoR
+  - Casillas, J. V. (2018). academicWriteR: Helper functions for academic writing/organization. R package: www.jvcasillas.com/academicWriteR
+  - Casillas, J. V. (2017). lingStuff: Tools and gems for linguistics related research. R package: www.jvcasillas.com/lingStuff 
 
-### Home address (only if preferred address for correspondence) 
+## Professional data and contact details
 
-Street  
-City & Postal/Zip code  
-Country  
-Phone/Fax  
-E-mail
+Charlie Nagle  
+Academic status: Associate Professor  
+Academic affiliation: The University of Texas at Austin  
+ORCID: http://orcid.org/0000-0003-2712-2705  
+Email: cnagle@austin.utexas.edu  
+University address:  
+Department of Spanish and Portuguese  
+The University of Texas at Austin  
+Austin, TX 78712  
+United States of America
 
-# Submission instructions
-
-Please submit your book proposal as attachments by e-mail, either directly to the RMAL Series Editor (Rosa M. Manchón, manchon@um.es) or to acquisition editor Kees Vaes (kees.vaes@benjamins.nl). Please label attachments clearly with the name of the author(s)/editor(s), rather than “benjamins-proposal”, which would not distinguish them from other proposals at our end.
-
-On the basis of the book proposal, and after consultation with our RMAL Series Editor and the RMAL Editorial Board, we will determine whether the proposed book would fit our program, and, if so, ask you to submit the full manuscript for reviewing. Should your manuscript be accepted for publication we will get in touch concerning contractual matters, submission guidelines and a further marketing questionnaire.
-
+Joseph V. Casillas  
+Academic status: Associate Professor  
+Academic affiliation: Rutgers University  
+ORCID: http://orcid.org/0000-0001-8735-9910  
+Email: joseph.casillas@rutgers.edu  
+University address:  
+Department of Spanish and Portuguese  
+Rutgers University  
+New Brunswick, NJ 08901  
+United States of America
 
