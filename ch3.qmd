@@ -1,0 +1,11 @@
+# Reproducible Quantitative Research
+
+This is a book created from markdown and executable code.
+
+See @Coretta2023Multidimensional for additional discussion of literate programming.
+
+```{r}
+1 + 1
+```
+
+Here is some new stuff. 

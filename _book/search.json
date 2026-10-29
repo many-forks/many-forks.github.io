@@ -2,31 +2,101 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "JB-Quan-Book",
+    "title": "Forking Paths, Open Doors",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "text": "Home\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "preface.html",
+    "href": "preface.html",
+    "title": "Preface",
+    "section": "",
+    "text": "A note from the authors",
     "crumbs": [
       "Preface"
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "objectID": "preface.html#how-to-use-this-book",
+    "href": "preface.html#how-to-use-this-book",
+    "title": "Preface",
+    "section": "How to use this book",
+    "text": "How to use this book",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "Preface"
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
+    "objectID": "preface.html#how-not-to-use-this-book",
+    "href": "preface.html#how-not-to-use-this-book",
+    "title": "Preface",
+    "section": "How not to use this book",
+    "text": "How not to use this book",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "ch1.html",
+    "href": "ch1.html",
+    "title": "1  State of the Art in Open Applied Linguistics",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Coretta et al. (2023) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\nHere is some new stuff.\n\n\n\n\nCoretta, Stefano, Joseph V. Casillas, Simone Roessig, Michael Franke, B. Ahn, Ali H. Al-Hoorie, Jalal Al-Tamimi, et al. 2023. “Multidimensional Signals and Analytic Flexibility: Estimating Degrees of Freedom in Human-Speech Analyses.” Advances in Methods and Practices in Psychological Science 6 (3): 25152459231162567. https://doi.org/10.1177/25152459231162567.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>State of the Art in Open Applied Linguistics</span>"
+    ]
+  },
+  {
+    "objectID": "ch2.html",
+    "href": "ch2.html",
+    "title": "2  Overview of Quantitative Methods",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Coretta et al. (2023) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\nHere is some new stuff.\n\n\n\n\nCoretta, Stefano, Joseph V. Casillas, Simone Roessig, Michael Franke, B. Ahn, Ali H. Al-Hoorie, Jalal Al-Tamimi, et al. 2023. “Multidimensional Signals and Analytic Flexibility: Estimating Degrees of Freedom in Human-Speech Analyses.” Advances in Methods and Practices in Psychological Science 6 (3): 25152459231162567. https://doi.org/10.1177/25152459231162567.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Overview of Quantitative Methods</span>"
+    ]
+  },
+  {
+    "objectID": "ch3.html",
+    "href": "ch3.html",
+    "title": "3  Reproducible Quantitative Research",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Coretta et al. (2023) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\nHere is some new stuff.\n\n\n\n\nCoretta, Stefano, Joseph V. Casillas, Simone Roessig, Michael Franke, B. Ahn, Ali H. Al-Hoorie, Jalal Al-Tamimi, et al. 2023. “Multidimensional Signals and Analytic Flexibility: Estimating Degrees of Freedom in Human-Speech Analyses.” Advances in Methods and Practices in Psychological Science 6 (3): 25152459231162567. https://doi.org/10.1177/25152459231162567.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Reproducible Quantitative Research</span>"
+    ]
+  },
+  {
+    "objectID": "ch4.html",
+    "href": "ch4.html",
+    "title": "4  Integrity in Quantitative Research",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Coretta et al. (2023) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\nHere is some new stuff.\n\n\n\n\nCoretta, Stefano, Joseph V. Casillas, Simone Roessig, Michael Franke, B. Ahn, Ali H. Al-Hoorie, Jalal Al-Tamimi, et al. 2023. “Multidimensional Signals and Analytic Flexibility: Estimating Degrees of Freedom in Human-Speech Analyses.” Advances in Methods and Practices in Psychological Science 6 (3): 25152459231162567. https://doi.org/10.1177/25152459231162567.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Integrity in Quantitative Research</span>"
+    ]
+  },
+  {
+    "objectID": "ch5.html",
+    "href": "ch5.html",
+    "title": "5  Ethics in Quantitative Research",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Coretta et al. (2023) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\nHere is some new stuff.\n\n\n\n\nCoretta, Stefano, Joseph V. Casillas, Simone Roessig, Michael Franke, B. Ahn, Ali H. Al-Hoorie, Jalal Al-Tamimi, et al. 2023. “Multidimensional Signals and Analytic Flexibility: Estimating Degrees of Freedom in Human-Speech Analyses.” Advances in Methods and Practices in Psychological Science 6 (3): 25152459231162567. https://doi.org/10.1177/25152459231162567.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Ethics in Quantitative Research</span>"
+    ]
+  },
+  {
+    "objectID": "conclusion.html",
+    "href": "conclusion.html",
+    "title": "6  Conclusion",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Conclusion</span>"
     ]
   },
   {
@@ -34,7 +104,7 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Coretta, Stefano, Joseph V. Casillas, Simone Roessig, Michael Franke, B.\nAhn, Ali H. Al-Hoorie, Jalal Al-Tamimi, et al. 2023.\n“Multidimensional Signals and Analytic Flexibility: Estimating\nDegrees of Freedom in Human-Speech Analyses.” Advances in\nMethods and Practices in Psychological Science 6 (3):\n25152459231162567. https://doi.org/10.1177/25152459231162567.",
     "crumbs": [
       "References"
     ]
