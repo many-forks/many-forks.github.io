@@ -1,11 +1,170 @@
 # Overview of Quantitative Methods
 
-This is a book created from markdown and executable code.
+Quantitative research in applied linguistics is characterized by the systematic investigation of phenomena that can be represented, at least in part, in numerical form. 
+We then use these numbers to do fancy statistics to test hypotheses. 
+In essence, we are using our domain expertise in the language sciences to make guesses about some topic of interest---say, speech perception in early bilinguals---and then quantify our uncertainty around the answer we obtain. 
+Unfortunately, this process is not trivial. 
+A good quantitative study includes numerous core elements that require a considerable investment of time, resources, and careful, deliberate consideration. 
+In this chapter, we consider some of these investments of time. 
+For instance, a robust quantitative study will likely include, but is certainly not limited to, the following: a clearly articulated research question or hypothesis, an explicit theoretical framework, operational definitions of constructs, a defined population and sampling strategy, procedures for data collection, an analytic plan, and a framework for statistical inferences. 
+All of these core elements are associated with explicit training and careful planning in successful quantitative research. 
 
-See @Coretta2023Multidimensional for additional discussion of literate programming.
+At the heart of this approach is the notion that the phenomenon under investigation---be it speech perception in bilinguals, processing speed, instructional effectiveness, or any other number of interesting topics---can be meaningfully quantified. 
+Researchers must therefore justify not only the choice of measurement instruments, but also the argument that the numerical indicators they collect validly represent the underlying construct. 
+This process of construct operationalization is not merely technical; it is theoretical. 
+Decisions about how to measure "proficiency", "input", or "interaction" embody assumptions about what those constructs are and how they manifest in observable behavior.
 
-```{r}
-1 + 1
-```
+We are only two paragraphs in and this may already feel a bit overwhelming, depending on your level of experience with quantitative research in linguistics. 
+Don't fret. 
+In this chapter we overview the key elements of a quantitative study with the goal of bringing you up to speed, or refreshing your memory, regarding what we see as the critical topics. 
+Let us continue by pointing out that the mere process of observing linguistic behavior is inherently complex. 
+At its core, observation is the use of the senses for some motivated purpose. 
+Much to our chagrin, our senses are not always reliable and may not necessarily present an accurate representation of reality. 
+Why is this so? 
+Well, to simplify, first we have a sensation of some sort, and then we make use of evolved adaptive mechanisms (sight, sound, smell, touch, taste) to decipher the sensory input. 
+In other words, our perception is a reconstruction of a sensation into a meaningful message in the brain, which we must reinterpret so that we can make sense of it. 
+The fact that sensations must first pass through our perceptions to be interpreted creates a neurological game of telephone that, to some degree, separates us from reality. 
+How far that separation is from reality really depends on how one observes data. 
+For some researchers, impressionistic data is the norm. 
+For others, specialized equipment may handle the heavy lifting of observation, as is often the case with behavioral, neural, or physiological data.
 
-Here is some new stuff. 
+So where does the quantitative part of a quantitative study come from? 
+Where are all the numbers? 
+After the complicated process of observation, we can begin to consider measurement, which we will operationalize as the process of assigning a number to an observation. 
+In most experimental research this step is unavoidable, every observation must somehow be turned into a number, and these numbers are (hopefully) not arbitrary. 
+In some cases, measurement can be quite simple, like counting the occurrences of some linguistic event (e.g., code switches, or the use of a variable form). 
+In other cases, measurement can require sophisticated equipment to monitor physiological behavior (e.g., pupil dilation during reading) and specialized software to ascribe a value to the observation. 
+In both cases, measurement involves a meaningful, defined process that requires both reliability and replicability for it to be valid. 
+We will have more to say regarding replication in Chapters X and Y, but, for now, let's briefly consider study design.
+
+The logic of study design in quantitative research generally follows a straightforward sequence: question, design, data collection, and analysis. 
+Although this sequence sounds simple enough, each step constrains the others in meaningful ways. 
+The type of question a researcher asks largely determines the type of study that should be conducted. 
+For example, a question about causal effects may call for an experimental or quasi-experimental design, whereas a question about relationships among variables may be better addressed with a correlational or observational approach. 
+Linguistic research is typically more observational in nature [@grieve-2021]. 
+From this point further decisions continue to have downstream consequences. 
+For instance, the design of the study can constrain the kinds of statistical analyses that can reasonably be applied to the data. 
+Not every statistical model is appropriate for every research design, and careful alignment among research questions, study design, and analytic strategy is essential for producing meaningful, interpretable results. 
+We will revisit this issue in Chapter X. 
+
+Another key component of study design involves identifying the population of interest and extracting from it a sample that is meaningful and representative (more on this below). 
+In applied linguistics, the population might consist of early bilinguals, heritage speakers, classroom learners, or some other group defined by linguistic, social, or educational characteristics. 
+It is rarely possible to observe every individual in a population, which is why we build statistical models, i.e., to generalize some finding of interest to the larger population. 
+One notable exception may occur in studies involving speakers of an endangered language, where, in some cases, it may be feasible to observe the entire population. 
+In such cases, sophisticated statistical modeling may not be necessary because the purpose of the research may not require generalization. 
+For this reason, researchers must rely on samples. 
+However, sampling decisions, like who or what is included, how participants are recruited, or how large the sample is, to name merely a few, have important consequences for the conclusions that can be drawn. 
+If, for example, the sample is not representative of the broader population, the findings likely will not generalize beyond the particular participants who took part in the study. 
+Focusing on the big picture, transparent reporting of sampling procedures and inclusion criteria is imperative for a study design to be robust and reproducible.
+
+A critical distinction that often shapes quantitative inquiry is the difference between confirmatory and exploratory research. 
+In confirmatory investigations, researchers begin with hypotheses derived from theory and test them using an analytic approach specified *a priori*, often with a preregistration or in a registered report. 
+The key component here is theory. 
+Exploratory research, by contrast, often involves searching for patterns in the data that may generate new hypotheses or reveal previously unnoticed relationships. 
+This type of research is much more common in areas of inquiry that might be more novel and not yet have robust theory to pull from. 
+Importantly, both approaches are valid and play crucial roles in the development of knowledge. 
+At the same time, they differ in the strength of the conclusions that can be drawn and in their susceptibility to what are sometimes called researcher degrees of freedom [@gelman_loken-2014; @simmons_nelson_simonsohn-2011]. 
+This phrase refers to the many small analytic decisions researchers can make after seeing the data---for instance, how variables are coded, which observations are included, or which statistical model is ultimately reported. 
+These decision points are sometimes described as "forking paths", because each choice can lead the analysis in a slightly different direction. 
+Whereas confirmatory research aims to reduce researcher degrees of freedom as much as possible, exploratory research takes advantage of them! 
+In short, the two approaches serve different purposes.
+
+Closely related to this discussion is the distinction between research questions and hypotheses. 
+Research questions tend to be broad and descriptive, outlining the general phenomenon under investigation. 
+Hypotheses, on the other hand, are specific and testable predictions about how variables should relate to one another. 
+You may have noticed that some studies you read tend to have one or the other, and some may even have both. 
+Being explicit about whether a study is exploratory or confirmatory---and about which decisions were made before versus after examining the data---may clarify whether your study includes general research questions or specific hypotheses. 
+A good study makes these decisions and distinctions explicit, which, in turn, helps readers interpret the strength of the evidence being presented. 
+It also contributes to greater transparency and reproducibility, both of which should be considered central goals of contemporary quantitative research in applied linguistics.
+
+
+## Main designs in quantitative research
+
+Having outlined the general logic of quantitative research, we now turn to the question of what kinds of study designs are actually used in practice. 
+At a broad level, most quantitative research in applied linguistics can be grouped into three general categories: experimental, quasi-experimental, and observational designs. 
+In experimental research, the defining features are control and random assignment. 
+Researchers manipulate one or more variables and randomly assign participants to conditions, which sets the stage for making claims about causality. 
+Quasi-experimental designs share many similarities but lack full random assignment, which is often difficult (or impossible) to achieve in real-world educational or social contexts. 
+Observational designs, by contrast, involve measuring variables as they naturally occur, without manipulation. 
+Much of applied linguistics research falls into this latter category, where the goal is often to identify patterns and relationships rather than to establish definitive causal links. 
+Each of these approaches has its strengths and limitations, and, as we have already suggested, the choice among them should be driven by the research question at hand rather than by convenience or habit.
+
+Another important distinction concerns how data are structured over time. 
+Many studies in applied linguistics are cross-sectional, meaning that data are collected at a single point in time, often comparing different groups (e.g., beginner vs. advanced learners). 
+These are typically between-participant designs, where different individuals contribute data to different conditions. 
+In contrast, longitudinal designs follow the same participants over multiple time points, allowing researchers to track development, change, or learning as it unfolds [@nagle-2023; @ortega-2005]. 
+These are often within-participant designs, where each participant serves, in some sense, as their own point of comparison. 
+In a similar vein, we can also make a distinction between real-time and apparent-time approaches. 
+Real-time studies observe change directly, often over months or years, whereas apparent-time studies infer change by comparing groups assumed to represent different stages (e.g., age groups or proficiency levels). 
+As you might imagine, longitudinal, real-time research can be resource-intensive [@ortega-2005], but it provides a level of insight into developmental processes that cross-sectional designs simply cannot offer.
+
+Beyond these more traditional designs, applied linguistics has also seen substantial growth in corpus-based research and classroom-based intervention studies. 
+Corpus-based designs rely on large collections of naturally occurring language data, which can be analyzed quantitatively to identify patterns of usage, variation, or change. 
+These studies often involve decisions about corpus composition, annotation, and representativeness that parallel, in many ways, the sampling issues discussed earlier. 
+Classroom-based and educational intervention studies, on the other hand, are typically concerned with evaluating the effects of instructional practices or pedagogical innovations. 
+These studies frequently operate under real-world constraints—limited control over participants, variability in instructional contexts—that make them prime candidates for quasi-experimental or mixed designs. 
+In both cases, careful attention to design, measurement, and analytic strategy remains essential for producing credible findings.
+
+Finally, it is worth noting that not all quantitative research fits neatly into a single design category. 
+Mixed-methods approaches, for instance, combine a quantitative core with qualitative data (e.g., interviews, observations, learner reflections) to provide a more comprehensive account of the phenomenon under investigation. 
+Similarly, replication studies and multisite research projects are becoming increasingly important in the context of reproducibility. 
+Replication involves repeating a study---sometimes as closely as possible, sometimes with deliberate modifications---to assess the robustness of its findings. 
+Multisite studies extend this logic by collecting comparable data across different contexts, populations, or research teams (REFS AND EXAMPLES). 
+Both approaches help address concerns about generalizability and reliability, reminding us that a single study, no matter how well designed, is rarely the final word on any given research question.
+
+
+## Main data analysis procedures in quantitative research
+
+We now turn to what many readers associate most directly with quantitative research: data analysis. 
+This is the stage where all of the prior decisions about research questions, design, sampling, and measurement come together. 
+Importantly, data analysis is not simply a matter of "running statistics", but rather involves aligning the structure of the data with an appropriate analytic framework so that the results meaningfully address the original research question. 
+One of the first considerations in this process is the structure of the data itself. 
+In applied linguistics, data are often nested (e.g., students within classrooms, responses within individuals), longitudinal (collected over time), or involve repeated measures (multiple observations per participant). 
+These structures pose important challenges for conducting sound data analysis. 
+To provide just one example, consider the standard linear model, which, historically, is the primary analytic tool used across disciplines for statistical inference. 
+A key assumption of the linear model is that observations are independent, i.e., one observation should not provide information about subsequent observations. 
+Importantly, failing to satisfy this assumption (and others) can result in a misspecified model and potentially misleading conclusions. 
+In short, how your data are organized should directly inform how they are analyzed.
+
+Before any complex modeling takes place, however, researchers typically begin with descriptive statistics. 
+These include measures of point estimates, such as means or medians, as well as a measure of spread, like a range or standard deviation. 
+At this stage, it is also important to consider data visualizations, like histograms or boxplots, to help understand point estimates and measures of spread. 
+Although sometimes treated as a preliminary or even perfunctory step, descriptive statistics play a crucial role in understanding the data. 
+They allow researchers to identify patterns, detect anomalies, and assess whether the data behave in ways that are consistent with expectations. 
+In some cases, descriptive statistics may be indicative of an upstream issue with the data collection procedures or could even provide meaningful insights; in others, they serve as a necessary foundation for more advanced analyses. 
+Either way, careful attention to descriptive statistics helps ensure that subsequent inferences are grounded in a clear understanding of the data at hand.
+
+Closely tied to both data structure and description are decisions about measurement and scoring. 
+Recall that quantitative research depends on assigning numbers to observations. 
+How those numbers are derived is not always straightforward. 
+Researchers must decide how to score responses, how to handle missing data, and how to aggregate or transform variables. 
+In many cases, especially when working with tests, questionnaires, or rating scales, these decisions are informed by psychometric considerations such as reliability and validity. 
+For example, do multiple items intended to measure the same construct actually correlate? 
+Do scores remain stable across iterations of the task? 
+These are not trivial concerns. 
+Poor measurement can undermine even the most sophisticated analysis, whereas well-constructed instruments provide a solid foundation for meaningful inference.
+
+When it comes to modeling relationships among variables, many analytic approaches in quantitative research can be understood within a broader regression framework. 
+Put simply, regression involves estimating the relationship between one or more predictor variables and an outcome variable. 
+This general logic underlies a wide range of techniques, from simple linear regression to more complex models used for categorical or non-linear outcomes. 
+Thinking in terms of regression provides a unifying perspective: regardless of the specific technique, researchers are typically asking how changes in one set of variables are associated with changes in another. 
+This perspective can help demystify what might otherwise appear to be a bewildering array of statistical methods.
+
+Building on this foundation, more advanced approaches have been developed to handle the kinds of complex data structures commonly encountered in applied linguistics. 
+Multilevel (or hierarchical) models, for instance, are designed to account for nested data, such as students within classrooms or repeated observations within individuals. 
+Rather than ignoring this structure, these models explicitly incorporate it, allowing researchers to partition variability at different levels and obtain more accurate estimates. 
+Similarly, structural equation modeling (SEM) provides a framework for analyzing relationships among latent constructs—variables that are not directly observed but are inferred from multiple indicators (e.g., motivation, proficiency). 
+SEM allows researchers to model both the measurement component (how well the indicators reflect the construct) and the structural component (how constructs relate to one another), offering a powerful, albeit complex, analytic tool.
+
+Finally, it is worth briefly addressing two broad statistical paradigms that underpin much of quantitative analysis: frequentist and Bayesian approaches. 
+Without going too far into the technical details, frequentist methods---still the most commonly used in applied linguistics---rely on long-run frequency properties of estimators and often involve null hypothesis significance testing. 
+Bayesian approaches, by contrast, incorporate prior information and update beliefs about parameters in light of the observed data. 
+Each framework has its own assumptions, advantages, and limitations, and both can be used to address similar research questions. 
+What is most important, from our perspective, is not strict allegiance to one paradigm over the other, but rather a clear understanding of the assumptions being made and a transparent account of how analytic decisions were reached. 
+As with all aspects of quantitative research, thoughtful alignment between questions, data, and analytic approach remains the guiding principle.
+
+
+## Methodological rigor in quantitative research
+
+### Participant Selection
+
