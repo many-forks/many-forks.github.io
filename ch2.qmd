@@ -168,3 +168,36 @@ As with all aspects of quantitative research, thoughtful alignment between quest
 
 ### Participant Selection
 
+One of the most fundamental aspects of quantitative research involves defining the population of interest and sampling from that population. 
+In our view, populations are often defined too broadly, which can have downstream consequences for the scope of generalizability of the research. 
+Consider, for instance, researchers working with university students who are learning an additional language in an instructed setting. 
+In this case, it is easy to imagine that findings might generalize broadly, from one sample of university language learners to another learning the same language, or perhaps even a different one, depending on the breadth of the research questions asked and tasks used. 
+Yet, this broad characterization of the population, which could lead to an equally broad application of findings, obscures many ways in which samples might differ.
+For one, the sociodemographic characteristics of the samples might be quite different if one is drawn from an elite private university versus a large, public, land-grant institution. 
+Another possible difference could be geographic. 
+Depending on where the universities are located, the language learning affordances of that region---the extent to which the target language is spoken outside of the classroom context, and therefore opportunities for language use and interaction---could vary considerably. 
+Furthermore, the reality is that most researchers have historically relied on convenience samples, which means that samples could be affected by self-selection bias and thus may not be representative of the average language learner. 
+In short, researchers must take care to define the population in precise terms and to take a critical approach to sampling by adopting strategies that mitigate the risk of sampling bias. 
+How can this be accomplished?
+
+In terms of defining the population carefully, two strategies are needed. 
+First, the population must be described so that sampling can proceed in reference to a set of target characteristics. 
+Second, sufficient information must be collected on the sample so that the description of the sample is as accurate as possible. 
+This ensures that when future research on the topic is conducted and compared to the original research, differences in sample characteristics can be rigorously assessed. 
+Typically, researchers have collected and reported on what we view as minimally adequate linguistic information related, for example, to participants' language learning and use profiles. 
+Yet, we see that information as important but limited in several ways. 
+Regardless of study focus, sociodemographic information should be collected and reported. 
+Sugden and Moulsen observed that "even if [a researcher is] not interested in the impact of race, culture, and ethnicity on the phenomenon under study, including these variables can add depth to researchers' understanding of a phenomenon" [-@Sugden2015Recruitment, p. 2]. 
+We concur and further argue that the collection of such variables is necessary for describing the sample completely and accurately. 
+More comprehensive reporting can reveal systematic gaps in sampling, which can provide important information on the extent to which applied linguistics samples are overly WEIRD [@Henrich2010WEIRD] and academic [@Andringa2020SamplingBias]. 
+More purposeful sampling can also allow for interesting comparisons between randomly drawn (likely convenient) samples and more representative ones [] (Andringa, 2014). 
+Another consideration is to collect additional linguistic or socioaffective information that could be important for understanding the sample. 
+For instance, in second language acquisition research, scholars have called for more consistent implementation of independent proficiency measures [] (Park et al., 2022). 
+Such measures are necessary for providing more accurate proficiency information on the sample. 
+Similar arguments could be extended to other variables, such as language learning motivation, with the goal of describing the motivational profile of participants included in the sample even if motivation is not central to the research questions. 
+As another example, in applied linguistics research on bilingual samples, the primary construct of interest might be language dominance. 
+Yet, it could also be useful to collect data on participants' code-switching practices using a tailored questionnaire for that purpose [] (Olson, 2024).
+Code-switching behaviors could affect the target phenomenon, but even if they do not, describing the code-switching characteristics of the sample could be an important data point for sample comparison in future work. 
+Certainly, we do not advocate for adding more and more instruments to the research design to the point that it becomes unwieldy for the researcher and overly time-consuming for participants. 
+However, we do encourage researchers to think about moving beyond minimally (in)adequate descriptions of the sample by considering what additional information about the sample might be necessary. 
+
