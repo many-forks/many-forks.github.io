@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Forking Paths, Open Doors"
@@ -26,6 +27,5 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreprt
-
 
 
