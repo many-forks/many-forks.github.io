@@ -6,7 +6,9 @@ format: gfm
 
 
 
-Download bib file: 
+## Download bib file
+
+Render this file to download the latest version of `bibliography.bib` from `many-forks/bibliography`:
 
 ```{r}
 #| label: get-refs

@@ -1,3 +1,21 @@
 
 
 # Repo for Forking Paths, Open Doors: *Designing Transparent and Reproducible Quantitative Studies in Applied Linguistics*
+
+## Download bib file
+
+Render this file to download the latest version of `bibliography.bib`
+from `many-forks/bibliography`:
+
+``` r
+# Set bib file url
+fileUrl <- "https://raw.githubusercontent.com/many-forks/bibliography/master/bibliography.bib"
+
+# Download bib file
+download.file(
+  fileUrl, 
+  cacheOK = F, 
+  destfile = "bibliography.bib", 
+  method = "curl"
+)
+```
