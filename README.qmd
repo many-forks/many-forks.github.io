@@ -1,0 +1,24 @@
+---
+format: gfm
+---
+
+# Repo for Forking Paths, Open Doors: *Designing Transparent and Reproducible Quantitative Studies in Applied Linguistics*
+
+
+
+Download bib file: 
+
+```{r}
+#| label: get-refs
+
+# Set bib file url
+fileUrl <- "https://raw.githubusercontent.com/many-forks/bibliography/master/bibliography.bib"
+
+# Download bib file
+download.file(
+  fileUrl, 
+  cacheOK = F, 
+  destfile = "bibliography.bib", 
+  method = "curl"
+)
+```

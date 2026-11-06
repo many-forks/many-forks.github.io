@@ -7,7 +7,7 @@ book:
     Designing Transparent and Reproducible Quantitative Studies in Applied 
     Linguistics
   author: "Norah Jones"
-  date: "`r format(Sys.time(), '%D')`"
+  date: today
   chapters:
     - index.qmd
     - preface.qmd
@@ -19,7 +19,7 @@ book:
     - conclusion.qmd
     - references.qmd
 
-bibliography: references.bib
+bibliography: bibliography.bib
 
 format:
   html:
