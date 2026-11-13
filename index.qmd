@@ -1,3 +1,7 @@
-# Home {.unnumbered}
+::: {.content-visible when-format="html"}
+
+# Welcome {.unnumbered .unlisted}
 
 This is a work in progress.
+
+:::

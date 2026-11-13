@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "Forking Paths, Open Doors",
     "section": "",
-    "text": "Home\nThis is a work in progress.",
+    "text": "Welcome\nThis is a work in progress.",
     "crumbs": [
-      "Home"
+      "Welcome"
     ]
   },
   {
@@ -42,7 +42,7 @@
   {
     "objectID": "ch1.html",
     "href": "ch1.html",
-    "title": "1  State of the Art in Open Applied Linguistics",
+    "title": "\n1  State of the Art in Open Applied Linguistics\n",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Coretta et al. (2023) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\nHere is some new stuff.\n\n\n\n\nCoretta, Stefano, Joseph V. Casillas, Simone Roessig, Michael Franke, B. Ahn, Ali H. Al-Hoorie, Jalal Al-Tamimi, et al. 2023. “Multidimensional Signals and Analytic Flexibility: Estimating Degrees of Freedom in Human-Speech Analyses.” Advances in Methods and Practices in Psychological Science 6 (3): 25152459231162567. https://doi.org/10.1177/25152459231162567.",
     "crumbs": [
@@ -82,7 +82,7 @@
   {
     "objectID": "ch3.html",
     "href": "ch3.html",
-    "title": "3  Reproducible Quantitative Research",
+    "title": "\n3  Reproducible Quantitative Research\n",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Coretta et al. (2023) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\nHere is some new stuff.\n\n\n\n\nCoretta, Stefano, Joseph V. Casillas, Simone Roessig, Michael Franke, B. Ahn, Ali H. Al-Hoorie, Jalal Al-Tamimi, et al. 2023. “Multidimensional Signals and Analytic Flexibility: Estimating Degrees of Freedom in Human-Speech Analyses.” Advances in Methods and Practices in Psychological Science 6 (3): 25152459231162567. https://doi.org/10.1177/25152459231162567.",
     "crumbs": [
@@ -92,7 +92,7 @@
   {
     "objectID": "ch4.html",
     "href": "ch4.html",
-    "title": "4  Integrity in Quantitative Research",
+    "title": "\n4  Integrity in Quantitative Research\n",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Coretta et al. (2023) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\nHere is some new stuff.\n\n\n\n\nCoretta, Stefano, Joseph V. Casillas, Simone Roessig, Michael Franke, B. Ahn, Ali H. Al-Hoorie, Jalal Al-Tamimi, et al. 2023. “Multidimensional Signals and Analytic Flexibility: Estimating Degrees of Freedom in Human-Speech Analyses.” Advances in Methods and Practices in Psychological Science 6 (3): 25152459231162567. https://doi.org/10.1177/25152459231162567.",
     "crumbs": [
@@ -102,7 +102,7 @@
   {
     "objectID": "ch5.html",
     "href": "ch5.html",
-    "title": "5  Ethics in Quantitative Research",
+    "title": "\n5  Ethics in Quantitative Research\n",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Coretta et al. (2023) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\nHere is some new stuff.\n\n\n\n\nCoretta, Stefano, Joseph V. Casillas, Simone Roessig, Michael Franke, B. Ahn, Ali H. Al-Hoorie, Jalal Al-Tamimi, et al. 2023. “Multidimensional Signals and Analytic Flexibility: Estimating Degrees of Freedom in Human-Speech Analyses.” Advances in Methods and Practices in Psychological Science 6 (3): 25152459231162567. https://doi.org/10.1177/25152459231162567.",
     "crumbs": [
@@ -112,7 +112,7 @@
   {
     "objectID": "conclusion.html",
     "href": "conclusion.html",
-    "title": "6  Conclusion",
+    "title": "\n6  Conclusion\n",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
     "crumbs": [

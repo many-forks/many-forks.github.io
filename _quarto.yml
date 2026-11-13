@@ -7,8 +7,22 @@ book:
   subtitle: 
     Designing Transparent and Reproducible Quantitative Studies in Applied 
     Linguistics
-  author: "Norah Jones"
-  date: today
+  reader-mode: true
+
+  page-footer:
+    left: |
+      Forking Paths, Open Doors: Designing Transparent and Reproducible 
+      Quantitative Studies in Applied Linguistics was written by 
+      Joseph V. Casillas and Charlie Nagle
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  cover-image: cover.jpg
+  favicon: cover.jpg
+  site-url: https://many-forks.github.io/
+  repo-url: https://github.com/many-forks/many-forks.github.io/
+  repo-branch: main
+  repo-actions: [edit, issue]
+
   chapters:
     - index.qmd
     - preface.qmd
@@ -22,10 +36,18 @@ book:
 
 bibliography: bibliography.bib
 
+
 format:
-  html:
-    theme: cosmo
   pdf:
     documentclass: scrreprt
+  html:
+    theme:
+      - cosmo
+      - many-forks.scss
+    code-link: true
 
+    author-meta: "Joseph V. Casillas and Charlie Nagle"
+    include-in-header: "plausible.html"
+    callout-appearance: simple
 
+editor: source
