@@ -8,7 +8,10 @@ book:
     Designing Transparent and Reproducible Quantitative Studies in Applied 
     Linguistics
   reader-mode: true
-
+  author:
+    - Charlie Nagle
+    - Joseph V. Casillas
+  
   page-footer:
     left: |
       Forking Paths, Open Doors: Designing Transparent and Reproducible 
@@ -32,13 +35,12 @@ book:
     - ch4.qmd
     - ch5.qmd
     - conclusion.qmd
-    - references.qmd
 
 bibliography: bibliography.bib
-
+reference-location: section
 
 format:
-  pdf:
+  typst:
     documentclass: scrreprt
   html:
     theme:

@@ -9,3 +9,11 @@ See @Coretta2023Multidimensional for additional discussion of literate programmi
 ```
 
 Here is some new stuff. 
+
+
+# References {.unnumbered}
+
+::: {#refs}
+:::
+
+
