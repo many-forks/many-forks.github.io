@@ -19,8 +19,8 @@ book:
       Joseph V. Casillas and Charlie Nagle
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
-  cover-image: cover.jpg
-  favicon: cover.jpg
+  cover-image: img/cover.jpg
+  favicon: img/cover.jpg
   site-url: https://many-forks.github.io/
   repo-url: https://github.com/many-forks/many-forks.github.io/
   repo-branch: main
@@ -36,18 +36,25 @@ book:
     - ch5.qmd
     - conclusion.qmd
 
-bibliography: bibliography.bib
-reference-location: section
+filters:
+  - citetools
+
+bibliography_ch1: refs/ch1.bib
+bibliography_ch2: refs/ch2.bib
+bibliography_ch3: refs/ch1.bib
+bibliography_ch4: refs/ch1.bib
+bibliography_ch5: refs/ch1.bib
+bibliography_ch6: refs/ch1.bib
 
 format:
-  typst:
+  pdf:
     documentclass: scrreprt
+
   html:
     theme:
       - cosmo
       - many-forks.scss
     code-link: true
-
     author-meta: "Joseph V. Casillas and Charlie Nagle"
     include-in-header: "plausible.html"
     callout-appearance: simple

@@ -6,21 +6,27 @@ format: gfm
 
 
 
-## Download bib file
+## Download bib files
 
-Render this file to download the latest version of `bibliography.bib` from `many-forks/bibliography`:
+Render this file to download the latest version of the bib files from `many-forks/bibliography`:
 
 ```{r}
 #| label: get-refs
 
 # Set bib file url
-fileUrl <- "https://raw.githubusercontent.com/many-forks/bibliography/master/bibliography.bib"
+file_url <- "https://raw.githubusercontent.com/many-forks/bibliography/master/"
+bib_name <- glue::glue("ch{1:6}.bib") |> as.vector()
+links <- glue::glue("{file_url}{bib_name}") |> as.vector()
 
-# Download bib file
-download.file(
-  fileUrl, 
+for (i in 1:length(links)) {
+  print(links[i])
+  print(bib_name[i])
+  download.file(
+  links[i], 
   cacheOK = F, 
-  destfile = "bibliography.bib", 
+  destfile = paste0("./refs/", bib_name[i]),
   method = "curl"
-)
+  )
+}
+
 ```

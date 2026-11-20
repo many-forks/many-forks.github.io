@@ -256,20 +256,23 @@ Importantly, even with high-profile models and measures, such as the L2 Motivati
 In fact, doing so is part of the productive struggle and growth trajectory of a research domain. 
 In L2 motivation research, the L2 Motivational Self System has come under scrutiny due to apparent jingle-jangle fallacies. 
 That is, the term *jingle*, applies when the same name is used for different constructs, and *jangle* when different names are used for the same construct [see @alhoorie_hiver_innami-2024]. 
-Research adopting that framework has also been critiqued for assuming rather than assessing and demonstrating the reliability of motivational subscales [] (McClelland & Larson-Hall, 2025). 
+Research adopting that framework has also been critiqued for assuming rather than assessing and demonstrating the reliability of motivational subscales [@mcclelland-2025]. 
 Certainly, the debate around this model is a sign of the complexity of the conceptual space and of disciplinary growth [ ] (Nagle, 2025), but the reality is that validity and reliability issues cannot be ignored, assumed, or moved to the margins of our research. 
 
 As another example, in speech research, speakers are recorded responding to a prompt, narrating a story using a series of images, or completing a standardized speaking test. 
 A short stretch of speech is then extracted for presentation to listeners, who might be asked to transcribe it to quantify intelligibility or rate it using a Likert scale to quantify comprehensibility and accentedness. 
 Several validity and reliability issues arise in listener-based evaluations such as these. 
-For one, is one, 30-second excerpt representative of the speaker? Put another way, can we claim that the intelligibility, comprehensibility, and accentedness of the excerpt is representative of the speaker, or is it simply representative of that particular stretch of speech? 
+For one, is one, 30-second excerpt representative of the speaker? 
+Put another way, can we claim that the intelligibility, comprehensibility, and accentedness of the excerpt is representative of the speaker, or is it simply representative of that particular stretch of speech? 
 To generalize from an excerpt to a speaker, and to examine the extent to which excerpts sampled from the same speaker pattern together and are evaluated similarly, multiple excerpts are likely needed (Crowther & Isbell, 2023).
+<!-- need crowther ref -->
 Turning to the listeners, do they interpret and apply the rating scales consistently? 
 For instance, if one listener rates sample A as more comprehensible than sample B (i.e., assigns a higher rating to A than B), then do the other listeners show the same pattern (A > B)? 
 Rating scales and testing also bring to the forefront another issue: item or step discrimination. 
 When an interval or ordinal scale is used, there is an assumption that the steps on that scale reflect discrete and higher levels of the property being rated. 
 In interval scales, steps are also assumed to be equidistant. 
 These properties can be tested to determine if scales are of an appropriate length, if the steps are clearly discriminable (i.e., if there is a true difference between, for instance, a rating of 5 and a rating of 6 on a 9-point scale), and so on, which is useful both on psychometric (How well is the scale performing?) and conceptual (How many levels of comprehensibility are truly identifiable in the data? Can participants be sorted into bands based on those levels?) grounds (Yamashita, 2026). 
+<!-- need yamashita ref --> 
 The same logic can apply to any test that is developed. 
 A key aspect of test design is ensuring a range of item difficulty, such that items can separate test takers based on their ability. 
 Some items are hypothesized to be harder than others and therefore useful for separating test takers at the higher end of the ability continuum, whereas others are easier and thus useful at the lower end. 
@@ -279,7 +282,7 @@ An important challenge researchers face is how and where to document research pr
 Research presentations and publications are typically product-oriented, insofar as they describe the end-state of the research, that is, the finalized tasks and procedures the researcher decided to implement, without much space allocated to the actual process that led the researcher to make those decisions. 
 Yet, this perspective is at odds with contemporary open science research practices, which emphasize discoverability, accessibility, reusability, and transparency. 
 Certainly, researchers provide justifications for the decisions they have made, but those decisions are not often compared and contrasted with alternative paths, of which there are many. 
-To put a point on this issue, when Coretta et al. (2023) assessed research degrees of freedom in the acoustic coding and statistical analysis of the same speech data set, they found that the 46 teams who participated produced 2,860 combinations. Had the teams entered the study at the data collection stage, the number of combinations would have been exponentially more. 
+To put a point on this issue, when @coretta_etal-2023 assessed research degrees of freedom in the acoustic coding and statistical analysis of the same speech data set, they found that the 46 teams who participated produced 2,860 combinations. Had the teams entered the study at the data collection stage, the number of combinations would have been exponentially more. 
 As the authors and other scholars (e.g., Bolibaugh et al., 2022) have pointed out, variation in research practices is not due to negligence, a lack of expertise, or some other factor, but rather a fact of life in a complex human-subjects discipline such as ours. 
 This means that full documentation is more necessary than ever because without it, as the field moves forward in that area (e.g., via replication), it will be impossible to locate the source of divergent findings, which could be due to variables the research has systematically altered or an undocumented or underreported deviation in study design and implementation. 
 
@@ -292,7 +295,7 @@ Data can often be coded and analyzed in a variety of ways.
 For example, if a test is administered to participants, the researcher may decide to compute a mean score and use that as the dependent measure of learning. 
 Alternatively, they might decide to model the item-level response data. 
 These two choices would lead to different statistical analyses, and as these decisions proliferate throughout the data coding and analysis pipeline, they will likely have downstream effects on results and interpretation. 
-To illustrate this point, Coretta et al. (2023) invited teams of researchers to use a set of recordings that the lead authors had collected to answer a predetermined research question. 
+To illustrate this point, @coretta_etal-2023 invited teams of researchers to use a set of recordings that the lead authors had collected to answer a predetermined research question. 
 Each team was responsible for determining, documenting, and reporting on their analytical choices, including the acoustic measures they decided to extract and how they did so, the models they fit, and any data screening and normalization procedures applied during the process. 
 Quality checks carried out by the teams on one another's analyses suggested that individual approaches were well motivated and documented. 
 At the same time, there was a high amount of researcher degrees of freedom, and these degrees of freedom in decision-making had a real impact on each team's results. 
@@ -361,7 +364,7 @@ Rather, preregistered analyses are identified as "planned" and new analyses as "
 
 ## Reporting Practices
 
-If we accept that research decisions are somewhat idiosyncratic and that no two researchers will converge on the exact same design and analysis plan (Bolibaugh et al., 2022; Coretta et al., 2023), then transparent and comprehensive reporting becomes our most important tool for understanding and advancing the state of the art. 
+If we accept that research decisions are somewhat idiosyncratic and that no two researchers will converge on the exact same design and analysis plan [@coretta_etal-2023] (Bolibaugh et al., 2022; Coretta et al., 2023), then transparent and comprehensive reporting becomes our most important tool for understanding and advancing the state of the art. 
 Yet, figuring out what to report is not necessarily an easy task given the complexities of human-subjects research. 
 Rather than providing an exhaustive list, here we comment on a few areas that are routinely underreported or misunderstood in terms of their reporting. We also point to resources that are now available, including templates that provide a reporting roadmap. 
 First and foremost, validity and reliability underlie everything we do, but researchers often leave out critical information on both topics. 
@@ -426,7 +429,7 @@ In our experience, scooping is uncommon.
 Nonetheless, the fear of being scooped seems to be persistent in academia. 
 Unfortunately, when a data set is shared publicly, one cannot guarantee that somebody else will not use the data in a way the original author intended (before they are able to do so). 
 We believe this fear is irrational for several reasons. 
-First, given what we know about researcher degrees of freedom in linguistics (See Coretta et al., 202X), we believe it would be highly unlikely for two (or more) independent research teams to approach a future analysis in exactly the same way. 
+First, given what we know about researcher degrees of freedom in linguistics [See @coretta_etal-2023], we believe it would be highly unlikely for two (or more) independent research teams to approach a future analysis in exactly the same way. 
 Thus, any resulting research products would necessarily be different from each other in non-trivial ways. 
 Second, we believe it is important for researchers to distinguish between raw data and the data sets that are derived from them, e.g., audio recordings in wav format (raw data) vs. a csv file with formant frequency values (derived data set). 
 Researchers typically make derived data sets available to the public. 
@@ -560,7 +563,9 @@ Likewise, researchers may reproduce design choices that were essentially arbitra
 A dual emphasis on transparency and reflexivity allows us to approach our work with epistemic humility. 
 
 
-# References
 
-::: {#refs}
+## References
+
+::: {#refs_ch2}
 :::
+
